@@ -34,8 +34,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/Segway" element={<Layout />}>
-          <Route index element={<Main />} />
+        <Route path="/" element={<Layout />}>
+          <Route path="Segway" element={<Main />} />
           <Route path="shop-cart" element={<Cart />} />
           <Route path="catalog" element={<Catalog />} />
           <Route path="catalog/:id" element={<KickScooterDetails />} />
