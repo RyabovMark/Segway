@@ -12,22 +12,17 @@ const Main = () => {
   return (
     <Box
       width="100%"
-      height="100%"
       display="flex"
       alignItems="center"
       flexDirection="column"
       bgcolor="text.white"
+      sx={{ flex: "1 0 auto" }}
     >
       <SnackBar />
       <MainHeader />
       <ScootersGrid />
       <BlueLine />
-      <Box
-        display="flex"
-        flexDirection="column"
-        width="80%"
-        sx={{ flex: "1 0 auto" }}
-      >
+      <Box width="80%" display="flex" flexDirection="column">
         <Box display="flex" sx={{ flexDirection: { xs: "column", md: "row" } }}>
           <OrderSection />
           <NewCollectionSlider />

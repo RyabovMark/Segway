@@ -39,7 +39,7 @@ const NewCollectionSlider = () => {
       {newCollectionScooters.map((item) => (
         <TabPanel key={item.id} value={newCollectionTabsValue} index={item.id}>
           <Box height={{ xs: "300px", md: "500px" }} mx="auto">
-            <Link to={`catalog/${item.id}`}>
+            <Link to={`/catalog/${item.id}`}>
               <img
                 className="h-full mx-auto"
                 src={item.imageURL}
