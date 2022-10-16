@@ -19,7 +19,7 @@ const Accessories = () => {
   };
 
   return (
-    <Box width="90%" mx="auto">
+    <Box width="90%" mx="auto" sx={{ flex: "1 0 auto" }}>
       <Typography
         textTransform="uppercase"
         textAlign="center"

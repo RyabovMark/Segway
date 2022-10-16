@@ -150,7 +150,7 @@ const OrderSection = () => {
                 </Link>
                 <img src={accessories} alt="accessories" />
               </Box>
-              <Box display="flex" flexDirection="row" justifyContent="center">
+              <Box display="flex" flexDirection="row" justifyContent="flex-end">
                 <Button
                   sx={{
                     bgcolor: "primary.main",

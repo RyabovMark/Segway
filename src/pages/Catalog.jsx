@@ -35,7 +35,7 @@ const Catalog = () => {
   };
 
   return (
-    <Box width="90%" mx="auto" py="30px">
+    <Box width="90%" mx="auto" py="30px" sx={{ flex: "1 0 auto" }}>
       <Grid container spacing={2}>
         {currentScooter.map((item) => (
           <Grid item key={item.id} xs={12} md={6}>

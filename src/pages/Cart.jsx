@@ -58,7 +58,7 @@ const Cart = () => {
           width="100%"
           bgcolor="text.white"
           p="10px"
-          sx={{ flex: "1 1 auto" }}
+          sx={{ flex: "1 0 auto" }}
         >
           <Box width="80%" mx="auto" my="-10px">
             <Typography
@@ -110,7 +110,7 @@ const Cart = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
-          sx={{ flex: "1 1 auto" }}
+          sx={{ flex: "1 0 auto" }}
         >
           <Typography variant="h4" color="text.primary">
             Your shop cart is empty

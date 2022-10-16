@@ -7,7 +7,6 @@ import Layout from "./components/Layout";
 import KickScooterDetails from "./pages/KickScooterDetails";
 import Cart from "./pages/Cart";
 import Accessories from "./pages/Accessories";
-import Compare from "./pages/Compare";
 import Contacts from "./pages/Contacts";
 import Catalog from "./pages/Catalog";
 import About from "./pages/About";
@@ -42,7 +41,6 @@ function App() {
           <Route path="accessories" element={<Accessories />} />
           <Route path="contacts" element={<Contacts />} />
           <Route path="about" element={<About />} />
-          <Route path="compare" element={<Compare />} />
         </Route>
       </Routes>
     </>

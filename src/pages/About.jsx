@@ -34,7 +34,7 @@ const About = () => {
   };
 
   return (
-    <Box sx={{ flex: "1 1 auto" }}>
+    <Box sx={{ flex: "1 0 auto" }}>
       <Box display="flex" flexDirection="column" width="90%" mx="auto">
         <Typography
           textTransform="uppercase"

@@ -7,7 +7,7 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 
 const Contacts = () => {
   return (
-    <Box width="90%" mx="auto" sx={{ flex: "1 1 auto" }}>
+    <Box width="90%" mx="auto" sx={{ flex: "1 0 auto" }}>
       <Typography
         textTransform="uppercase"
         textAlign="center"
