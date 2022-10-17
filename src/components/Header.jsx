@@ -24,7 +24,7 @@ const Header = () => {
   const handleSideMenu = () => {
     dispatch(setActiveMenu(!activeMenu));
   };
-
+  console.log(location.pathname);
   return (
     <Box
       width="100%"
@@ -66,7 +66,8 @@ const Header = () => {
           >
             <List direction="row" spacing={2}>
               <ListItem>
-                {location.pathname !== "/" && (
+                {(location.pathname !== "/Segway" ||
+                  location.pathname !== "/Segway/") && (
                   <>
                     <Link to="Segway">
                       <IconButton

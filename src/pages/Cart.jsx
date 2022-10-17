@@ -32,7 +32,7 @@ const Cart = () => {
 
   const handlerCheckout = () => {
     dispatch(setIsLoading(false));
-    navigate("Segway");
+    navigate("/Segway");
     dispatch(setClearCart([]));
     dispatch(setSnackBar(true));
   };

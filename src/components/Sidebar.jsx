@@ -45,7 +45,7 @@ const Sidebar = () => {
               onClick={() => handlerClick()}
               sx={{ textAlign: "center", fontSize: "22px" }}
             >
-              <Link to="/">
+              <Link to="/Segway">
                 <Item>SegWay</Item>
               </Link>
             </ListItemButton>
